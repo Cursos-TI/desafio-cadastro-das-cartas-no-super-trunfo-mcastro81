@@ -70,6 +70,11 @@ int main() {
     //Digitar a quantidade de pontos turísticos. Constar é número inteiro.
     printf("Digite quantos pontos turísticos o Município possui: ");
         scanf("%i", &pontotur2);
+
+        float densidade1 = (float)populacao1 / area1;
+        float densidade2 = (float)populacao2 / area2;
+        float pibcapita1 = pib1 / (float)populacao1;
+        float pibcapita2 = pib2 / (float)populacao2;
     
     printf("\n");
 
@@ -85,6 +90,8 @@ int main() {
         printf("Área: %.2f km²\n", area1);
         printf("PIB: R$ %.2f\n", pib1);
         printf("Número de Pontos Turísticos: %i locais\n", pontotur1);
+        printf("Densidade Populacional: %.2f hab/km²\n", densidade1);
+        printf("PIB per Capita: R$ %.2f\n", pibcapita1);
 
     printf("\n");
 
@@ -96,6 +103,8 @@ int main() {
         printf("Área: %.2f km²\n", area2);
         printf("PIB: R$ %.2f\n", pib2);
         printf("Número de Pontos Turísticos: %i locais\n", pontotur2);
+        printf("Densidade Populacional: %.2f hab/km²\n", densidade2);
+        printf("PIB per Capita: R$ %.2f\n", pibcapita2);
         
     printf("\n");
 
