@@ -71,6 +71,8 @@ int main() {
     printf("Digite quantos pontos turísticos o Município possui: ");
         scanf("%i", &pontotur2);
 
+    //Traduzir o código de int para float da população, e realizar as operações aritméticas
+    //Manter a nomenclatura de cada município com referência à carta, sendo 1 e 2
         float densidade1 = (float)populacao1 / area1;
         float densidade2 = (float)populacao2 / area2;
         float pibcapita1 = pib1 / (float)populacao1;
